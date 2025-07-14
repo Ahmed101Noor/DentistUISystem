@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<!-- saved from url=(0141)https://bft09hqy04gxddyc.canva-hosted-embed.com/codelet/AAEAEGJmdDA5aHF5MDRneGRkeWMAAAAAAZgEWCy8bglkJIkTi4wa7u3iUK_kA4u5WBfcLFqt2QtXJZHYZ1c/# -->
+<html lang="ar" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نظام إدارة طب الأسنان</title>
+  <script src="./نظام إدارة طب الأسنان_files/saved_resource"></script>
+  <link href="./نظام إدارة طب الأسنان_files/css2" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+    }
+    .tooth {
+      width: 30px;
+      height: 40px;
+      margin: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      position: relative;
+    }
+    .tooth-number {
+      position: absolute;
+      top: -15px;
+      font-size: 10px;
+    }
+    .tooth.healthy { background-color: #d1fae5; }
+    .tooth.cavity { background-color: #fee2e2; }
+    .tooth.treated { background-color: #dbeafe; }
+    .tooth.missing { background-color: #e5e7eb; }
+  </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.bottom-4{bottom:1rem}.right-4{right:1rem}.-mb-px{margin-bottom:-1px}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mr-1{margin-right:0.25rem}.mr-2{margin-right:0.5rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.mt-2{margin-top:0.5rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-4{height:1rem}.h-screen{height:100vh}.h-40{height:10rem}.h-5{height:1.25rem}.w-4{width:1rem}.w-64{width:16rem}.w-full{width:100%}.w-5{width:1.25rem}.flex-1{flex:1 1 0%}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-4{gap:1rem}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-reverse > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:1}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-sm{border-radius:0.125rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-b-2{border-bottom-width:2px}.border-t{border-top-width:1px}.border-blue-500{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-transparent{border-color:transparent}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-blue-700{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231 / var(--tw-bg-opacity, 1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.from-blue-800{--tw-gradient-from:#1e40af var(--tw-gradient-from-position);--tw-gradient-to:rgb(30 64 175 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-blue-900{--tw-gradient-to:#1e3a8a var(--tw-gradient-to-position)}.object-cover{object-fit:cover}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-green-800{--tw-text-opacity:1;color:rgb(22 101 52 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74 / var(--tw-text-opacity, 1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.text-yellow-600{--tw-text-opacity:1;color:rgb(202 138 4 / var(--tw-text-opacity, 1))}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:border-gray-300:hover{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-300:hover{--tw-bg-opacity:1;background-color:rgb(209 213 219 / var(--tw-bg-opacity, 1))}.hover\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.hover\:text-blue-800:hover{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.hover\:text-red-800:hover{--tw-text-opacity:1;color:rgb(153 27 27 / var(--tw-text-opacity, 1))}.focus\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.focus\:ring-blue-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(59 130 246 / var(--tw-ring-opacity, 1))}@media (min-width: 768px){.md\:col-span-2{grid-column:span 2 / span 2}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}@media (min-width: 1024px){.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}}</style></head>
+<body class="bg-gray-50">
+  <div class="flex h-screen">
+    <!-- Sidebar -->
+    <div class="w-64 bg-gradient-to-b from-blue-800 to-blue-900 text-white p-4">
+      <div class="mb-8">
+        <h1 class="text-2xl font-bold text-center py-4">نظام إدارة طب الأسنان</h1>
+      </div>
+      <nav>
+        <ul class="space-y-2">
+          <li>
+            <a href="https://bft09hqy04gxddyc.canva-hosted-embed.com/codelet/AAEAEGJmdDA5aHF5MDRneGRkeWMAAAAAAZgEWCy8bglkJIkTi4wa7u3iUK_kA4u5WBfcLFqt2QtXJZHYZ1c/#" id="register-link" class="block px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
+              تسجيل مريض
+            </a>
+          </li>
+          <li>
+            <a href="https://bft09hqy04gxddyc.canva-hosted-embed.com/codelet/AAEAEGJmdDA5aHF5MDRneGRkeWMAAAAAAZgEWCy8bglkJIkTi4wa7u3iUK_kA4u5WBfcLFqt2QtXJZHYZ1c/#" id="case-management-link" class="block px-4 py-2 rounded-md bg-blue-700 transition-colors">
+              إدارة حالات المرضى
+            </a>
+          </li>
+          <li>
+            <a href="https://bft09hqy04gxddyc.canva-hosted-embed.com/codelet/AAEAEGJmdDA5aHF5MDRneGRkeWMAAAAAAZgEWCy8bglkJIkTi4wa7u3iUK_kA4u5WBfcLFqt2QtXJZHYZ1c/#" class="block px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
+              جدولة المواعيد
+            </a>
+          </li>
+          <li>
+            <a href="https://bft09hqy04gxddyc.canva-hosted-embed.com/codelet/AAEAEGJmdDA5aHF5MDRneGRkeWMAAAAAAZgEWCy8bglkJIkTi4wa7u3iUK_kA4u5WBfcLFqt2QtXJZHYZ1c/#" class="block px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
+              التقارير
+            </a>
+          </li>
+          <li>
+            <a href="https://bft09hqy04gxddyc.canva-hosted-embed.com/codelet/AAEAEGJmdDA5aHF5MDRneGRkeWMAAAAAAZgEWCy8bglkJIkTi4wa7u3iUK_kA4u5WBfcLFqt2QtXJZHYZ1c/#" class="block px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
+              الإعدادات
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-1 overflow-auto">
+      <!-- Patient Case Management -->
+      <div id="case-management" class="p-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">إدارة حالات المرضى</h2>
+        
+        <!-- Patient Selection -->
+        <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+          <label for="patient-select" class="block text-sm font-medium text-gray-700 mb-2">اختر المريض:</label>
+          <select id="patient-select" class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+            <option value="">-- اختر مريض --</option>
+            <option value="1">أحمد محمد علي</option>
+            <option value="2">فاطمة أحمد حسين</option>
+            <option value="3">محمد عبدالله العمري</option>
+            <option value="4">نورة سعيد القحطاني</option>
+            <option value="5">خالد سعد الشمري</option>
+          </select>
+        </div>
+        
+        <!-- Patient Details -->
+        <div id="patient-details" class="bg-white rounded-lg shadow-md p-6 mb-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">بيانات المريض</h3>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+            <div>
+              <p class="text-sm text-gray-500">الاسم الكامل</p>
+              <p id="patient-name" class="font-medium">أحمد محمد علي</p>
+            </div>
+            <div>
+              <p class="text-sm text-gray-500">العمر</p>
+              <p id="patient-age" class="font-medium">35</p>
+            </div>
+            <div>
+              <p class="text-sm text-gray-500">الجنس</p>
+              <p id="patient-gender" class="font-medium">ذكر</p>
+            </div>
+            <div>
+              <p class="text-sm text-gray-500">رقم الهاتف</p>
+              <p id="patient-phone" class="font-medium">0501234567</p>
+            </div>
+            <div class="md:col-span-2">
+              <p class="text-sm text-gray-500">العنوان</p>
+              <p id="patient-address" class="font-medium">شارع الملك فهد، الرياض</p>
+            </div>
+          </div>
+          
+          <div class="mb-6">
+            <p class="text-sm text-gray-500 mb-1">التاريخ الطبي</p>
+            <div id="patient-medical-history" class="p-3 bg-gray-50 rounded-md">يعاني من حساسية تجاه البنسلين. تاريخ من ارتفاع ضغط الدم المعتدل.</div>
+          </div>
+          
+          <div class="mb-6">
+            <p class="text-sm text-gray-500 mb-1">ملاحظات الطبيب</p>
+            <div id="patient-doctor-notes" class="p-3 bg-gray-50 rounded-md">المريض يحتاج إلى متابعة دورية كل 3 أشهر بسبب مشاكل اللثة.</div>
+          </div>
+        </div>
+        
+        <!-- Tabbed Interface -->
+        <div id="patient-tabs" class="">
+          <div class="border-b border-gray-200">
+            <nav class="flex -mb-px">
+              <button id="tab-treatment-plans" class="tab-button py-4 px-6 border-b-2 font-medium border-blue-500 text-blue-600">
+                خطط العلاج
+              </button>
+              <button id="tab-patient-images" class="tab-button py-4 px-6 border-b-2 border-transparent font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300">
+                صور المريض
+              </button>
+              <button id="tab-medical-questions" class="tab-button py-4 px-6 border-b-2 border-transparent font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300">
+                الأسئلة الطبية
+              </button>
+              <button id="tab-patient-teeth" class="tab-button py-4 px-6 border-b-2 border-transparent font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300">
+                حالة الأسنان
+              </button>
+            </nav>
+          </div>
+          
+          <!-- Treatment Plans Tab -->
+          <div id="content-treatment-plans" class="tab-content bg-white rounded-lg shadow-md p-6 mt-4">
+            <div class="flex justify-between items-center mb-6">
+              <h3 class="text-xl font-semibold text-gray-800">خطط العلاج</h3>
+              <button id="add-treatment-plan-btn" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+                إضافة خطة علاج
+              </button>
+            </div>
+            
+            <!-- Treatment Plans List -->
+            <div id="treatment-plans-list" class="space-y-4 mb-6"><div class="bg-gray-50 p-4 rounded-md">
+          <div class="flex justify-between items-start">
+            <div>
+              <h4 class="font-medium">تنظيف الأسنان وإزالة الجير</h4>
+              <p class="text-sm text-gray-500">التاريخ: ٢١‏/١١‏/١٤٤٤ هـ</p>
+              <p class="text-sm text-green-600">
+                مكتملة
+              </p>
+            </div>
+            <div class="flex space-x-2 space-x-reverse">
+              <button class="edit-plan text-blue-600 hover:text-blue-800" data-id="1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"></path>
+                </svg>
+              </button>
+              <button class="delete-plan text-red-600 hover:text-red-800" data-id="1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div><div class="bg-gray-50 p-4 rounded-md">
+          <div class="flex justify-between items-start">
+            <div>
+              <h4 class="font-medium">حشو تسوس في الضرس العلوي الأيمن</h4>
+              <p class="text-sm text-gray-500">التاريخ: ٢٧‏/١٢‏/١٤٤٤ هـ</p>
+              <p class="text-sm text-yellow-600">
+                غير مكتملة
+              </p>
+            </div>
+            <div class="flex space-x-2 space-x-reverse">
+              <button class="edit-plan text-blue-600 hover:text-blue-800" data-id="2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"></path>
+                </svg>
+              </button>
+              <button class="delete-plan text-red-600 hover:text-red-800" data-id="2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div></div>
+            
+            <!-- Add/Edit Treatment Plan Form -->
+            <div id="treatment-plan-form" class="border-t pt-4 hidden">
+              <h4 class="text-lg font-medium text-gray-800 mb-4">
+                <span id="treatment-plan-form-title">إضافة خطة علاج جديدة</span>
+              </h4>
+              
+              <div class="space-y-4">
+                <div>
+                  <label for="treatment-description" class="block text-sm font-medium text-gray-700 mb-1">الوصف</label>
+                  <textarea id="treatment-description" rows="3" class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" placeholder="وصف خطة العلاج"></textarea>
+                </div>
+                
+                <div>
+                  <label for="treatment-date" class="block text-sm font-medium text-gray-700 mb-1">تاريخ الخطة</label>
+                  <input type="date" id="treatment-date" class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                </div>
+                
+                <div class="flex items-center">
+                  <input type="checkbox" id="treatment-completed" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
+                  <label for="treatment-completed" class="mr-2 block text-sm text-gray-700">مكتملة</label>
+                </div>
+                
+                <div class="flex space-x-4 space-x-reverse">
+                  <button id="save-treatment-plan" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+                    حفظ
+                  </button>
+                  <button id="cancel-treatment-plan" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300 transition-colors">
+                    إلغاء
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Patient Images Tab -->
+          <div id="content-patient-images" class="tab-content bg-white rounded-lg shadow-md p-6 mt-4 hidden">
+            <div class="flex justify-between items-center mb-6">
+              <h3 class="text-xl font-semibold text-gray-800">صور المريض</h3>
+              <button id="add-image-btn" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+                إضافة صورة
+              </button>
+            </div>
+            
+            <!-- Images Gallery -->
+            <div id="images-gallery" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6"><div class="bg-white border rounded-md overflow-hidden">
+          <img src="./نظام إدارة طب الأسنان_files/300x200" alt="صورة المريض" class="w-full h-40 object-cover">
+          <div class="p-3">
+            <div class="flex justify-between items-center">
+              <span class="text-sm font-medium text-blue-600">
+                قبل العلاج
+              </span>
+              <span class="text-xs text-gray-500">٢٤‏/٩‏/١٤٤٤ هـ</span>
+            </div>
+            <button class="delete-image mt-2 text-red-600 hover:text-red-800 text-sm" data-id="1">
+              حذف الصورة
+            </button>
+          </div>
+        </div><div class="bg-white border rounded-md overflow-hidden">
+          <img src="./نظام إدارة طب الأسنان_files/300x200(1)" alt="صورة المريض" class="w-full h-40 object-cover">
+          <div class="p-3">
+            <div class="flex justify-between items-center">
+              <span class="text-sm font-medium text-green-600">
+                بعد العلاج
+              </span>
+              <span class="text-xs text-gray-500">٣٠‏/١٠‏/١٤٤٤ هـ</span>
+            </div>
+            <button class="delete-image mt-2 text-red-600 hover:text-red-800 text-sm" data-id="2">
+              حذف الصورة
+            </button>
+          </div>
+        </div></div>
+            
+            <!-- Add Image Form -->
+            <div id="image-form" class="border-t pt-4 hidden">
+              <h4 class="text-lg font-medium text-gray-800 mb-4">إضافة صورة جديدة</h4>
+              
+              <div class="space-y-4">
+                <div>
+                  <label for="image-url" class="block text-sm font-medium text-gray-700 mb-1">رابط الصورة</label>
+                  <input type="text" id="image-url" class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" placeholder="أدخل رابط الصورة">
+                </div>
+                
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 mb-1">نوع الصورة</label>
+                  <div class="flex space-x-4 space-x-reverse">
+                    <div class="flex items-center">
+                      <input type="radio" id="image-type-before" name="image-type" value="before" checked="" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300">
+                      <label for="image-type-before" class="mr-2 block text-sm text-gray-700">قبل العلاج</label>
+                    </div>
+                    <div class="flex items-center">
+                      <input type="radio" id="image-type-after" name="image-type" value="after" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300">
+                      <label for="image-type-after" class="mr-2 block text-sm text-gray-700">بعد العلاج</label>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="flex space-x-4 space-x-reverse">
+                  <button id="save-image" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+                    حفظ
+                  </button>
+                  <button id="cancel-image" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300 transition-colors">
+                    إلغاء
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Medical Questions Tab -->
+          <div id="content-medical-questions" class="tab-content bg-white rounded-lg shadow-md p-6 mt-4 hidden">
+            <div class="flex justify-between items-center mb-6">
+              <h3 class="text-xl font-semibold text-gray-800">الأسئلة الطبية</h3>
+              <button id="add-question-btn" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+                إضافة سؤال
+              </button>
+            </div>
+            
+            <!-- Questions List -->
+            <div id="questions-list" class="space-y-4 mb-6"><div class="bg-gray-50 p-4 rounded-md">
+          <div class="flex justify-between items-start">
+            <div>
+              <h4 class="font-medium">هل تعاني من أمراض القلب؟</h4>
+              <p class="text-sm text-green-600">
+                الإجابة: لا
+              </p>
+            </div>
+            <div class="flex space-x-2 space-x-reverse">
+              <button class="edit-question text-blue-600 hover:text-blue-800" data-id="1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"></path>
+                </svg>
+              </button>
+              <button class="delete-question text-red-600 hover:text-red-800" data-id="1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div><div class="bg-gray-50 p-4 rounded-md">
+          <div class="flex justify-between items-start">
+            <div>
+              <h4 class="font-medium">هل لديك حساسية من أي أدوية؟</h4>
+              <p class="text-sm text-red-600">
+                الإجابة: نعم
+              </p>
+            </div>
+            <div class="flex space-x-2 space-x-reverse">
+              <button class="edit-question text-blue-600 hover:text-blue-800" data-id="2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"></path>
+                </svg>
+              </button>
+              <button class="delete-question text-red-600 hover:text-red-800" data-id="2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div></div>
+            
+            <!-- Add/Edit Question Form -->
+            <div id="question-form" class="border-t pt-4 hidden">
+              <h4 class="text-lg font-medium text-gray-800 mb-4">
+                <span id="question-form-title">إضافة سؤال جديد</span>
+              </h4>
+              
+              <div class="space-y-4">
+                <div>
+                  <label for="question-text" class="block text-sm font-medium text-gray-700 mb-1">نص السؤال</label>
+                  <textarea id="question-text" rows="2" class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" placeholder="أدخل نص السؤال"></textarea>
+                </div>
+                
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 mb-1">الإجابة</label>
+                  <div class="flex space-x-4 space-x-reverse">
+                    <div class="flex items-center">
+                      <input type="radio" id="answer-yes" name="answer" value="yes" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300">
+                      <label for="answer-yes" class="mr-2 block text-sm text-gray-700">نعم</label>
+                    </div>
+                    <div class="flex items-center">
+                      <input type="radio" id="answer-no" name="answer" value="no" checked="" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300">
+                      <label for="answer-no" class="mr-2 block text-sm text-gray-700">لا</label>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="flex space-x-4 space-x-reverse">
+                  <button id="save-question" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+                    حفظ
+                  </button>
+                  <button id="cancel-question" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300 transition-colors">
+                    إلغاء
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Patient Teeth Tab -->
+          <div id="content-patient-teeth" class="tab-content bg-white rounded-lg shadow-md p-6 mt-4 hidden">
+            <h3 class="text-xl font-semibold text-gray-800 mb-6">حالة الأسنان</h3>
+            
+            <div class="mb-6">
+              <div class="flex justify-center mb-2">
+                <div class="text-sm font-medium text-gray-500">الفك العلوي</div>
+              </div>
+              
+              <!-- Upper Teeth -->
+              <div class="flex justify-center mb-6">
+                <div class="flex flex-wrap justify-center" style="width: 320px;">
+                  <!-- Right Upper Teeth (18-11) -->
+                  <div id="tooth-18" class="tooth healthy">
+                    <span class="tooth-number">18</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-17" class="tooth healthy">
+                    <span class="tooth-number">17</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-16" class="tooth healthy">
+                    <span class="tooth-number">16</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-15" class="tooth cavity">
+                    <span class="tooth-number">15</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-14" class="tooth treated">
+                    <span class="tooth-number">14</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-13" class="tooth healthy">
+                    <span class="tooth-number">13</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-12" class="tooth cavity">
+                    <span class="tooth-number">12</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-11" class="tooth healthy">
+                    <span class="tooth-number">11</span>
+                    <span>◉</span>
+                  </div>
+                  
+                  <!-- Left Upper Teeth (21-28) -->
+                  <div id="tooth-21" class="tooth healthy">
+                    <span class="tooth-number">21</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-22" class="tooth cavity">
+                    <span class="tooth-number">22</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-23" class="tooth healthy">
+                    <span class="tooth-number">23</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-24" class="tooth healthy">
+                    <span class="tooth-number">24</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-25" class="tooth treated">
+                    <span class="tooth-number">25</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-26" class="tooth healthy">
+                    <span class="tooth-number">26</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-27" class="tooth healthy">
+                    <span class="tooth-number">27</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-28" class="tooth missing">
+                    <span class="tooth-number">28</span>
+                    <span>◉</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="flex justify-center mb-2">
+                <div class="text-sm font-medium text-gray-500">الفك السفلي</div>
+              </div>
+              
+              <!-- Lower Teeth -->
+              <div class="flex justify-center">
+                <div class="flex flex-wrap justify-center" style="width: 320px;">
+                  <!-- Right Lower Teeth (48-41) -->
+                  <div id="tooth-48" class="tooth missing">
+                    <span class="tooth-number">48</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-47" class="tooth treated">
+                    <span class="tooth-number">47</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-46" class="tooth healthy">
+                    <span class="tooth-number">46</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-45" class="tooth cavity">
+                    <span class="tooth-number">45</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-44" class="tooth cavity">
+                    <span class="tooth-number">44</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-43" class="tooth healthy">
+                    <span class="tooth-number">43</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-42" class="tooth healthy">
+                    <span class="tooth-number">42</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-41" class="tooth healthy">
+                    <span class="tooth-number">41</span>
+                    <span>◉</span>
+                  </div>
+                  
+                  <!-- Left Lower Teeth (31-38) -->
+                  <div id="tooth-31" class="tooth healthy">
+                    <span class="tooth-number">31</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-32" class="tooth healthy">
+                    <span class="tooth-number">32</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-33" class="tooth cavity">
+                    <span class="tooth-number">33</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-34" class="tooth healthy">
+                    <span class="tooth-number">34</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-35" class="tooth healthy">
+                    <span class="tooth-number">35</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-36" class="tooth treated">
+                    <span class="tooth-number">36</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-37" class="tooth healthy">
+                    <span class="tooth-number">37</span>
+                    <span>◉</span>
+                  </div>
+                  <div id="tooth-38" class="tooth missing">
+                    <span class="tooth-number">38</span>
+                    <span>◉</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Tooth Status Legend -->
+            <div class="flex justify-center space-x-4 space-x-reverse">
+              <div class="flex items-center">
+                <div class="w-4 h-4 bg-green-100 rounded-sm mr-1"></div>
+                <span class="text-sm">سليم</span>
+              </div>
+              <div class="flex items-center">
+                <div class="w-4 h-4 bg-red-100 rounded-sm mr-1"></div>
+                <span class="text-sm">تسوس</span>
+              </div>
+              <div class="flex items-center">
+                <div class="w-4 h-4 bg-blue-100 rounded-sm mr-1"></div>
+                <span class="text-sm">معالج</span>
+              </div>
+              <div class="flex items-center">
+                <div class="w-4 h-4 bg-gray-200 rounded-sm mr-1"></div>
+                <span class="text-sm">مفقود</span>
+              </div>
+            </div>
+            
+            <!-- Tooth Status Editor -->
+            <div class="mt-8 border-t pt-4">
+              <h4 class="text-lg font-medium text-gray-800 mb-4">تغيير حالة السن</h4>
+              
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label for="tooth-number" class="block text-sm font-medium text-gray-700 mb-1">رقم السن</label>
+                  <select id="tooth-number" class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"><option value="">اختر رقم السن</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="31">31</option><option value="32">32</option><option value="33">33</option><option value="34">34</option><option value="35">35</option><option value="36">36</option><option value="37">37</option><option value="38">38</option><option value="41">41</option><option value="42">42</option><option value="43">43</option><option value="44">44</option><option value="45">45</option><option value="46">46</option><option value="47">47</option><option value="48">48</option></select>
+                </div>
+                
+                <div>
+                  <label for="tooth-status" class="block text-sm font-medium text-gray-700 mb-1">الحالة</label>
+                  <select id="tooth-status" class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                    <option value="healthy">سليم</option>
+                    <option value="cavity">تسوس</option>
+                    <option value="treated">معالج</option>
+                    <option value="missing">مفقود</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div class="mt-4">
+                <button id="update-tooth-status" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+                  تحديث حالة السن
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Alert Message -->
+        <div id="alert-message" class="fixed bottom-4 right-4 p-4 rounded-md bg-green-100 text-green-800 shadow-md hidden">
+          تم حفظ البيانات بنجاح
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Mock data for patients
+    const mockPatients = [
+      {
+        id: 1,
+        fullName: "أحمد محمد علي",
+        age: 35,
+        gender: "male",
+        phoneNumber: "0501234567",
+        address: "شارع الملك فهد، الرياض",
+        medicalHistory: {
+          id: 1,
+          description: "يعاني من حساسية تجاه البنسلين. تاريخ من ارتفاع ضغط الدم المعتدل."
+        },
+        doctorNotes: "المريض يحتاج إلى متابعة دورية كل 3 أشهر بسبب مشاكل اللثة.",
+        images: [
+          {
+            id: 1,
+            imageUrl: "https://placehold.co/300x200?text=صورة+قبل+العلاج",
+            imageType: "before",
+            uploadDate: "2023-04-15"
+          },
+          {
+            id: 2,
+            imageUrl: "https://placehold.co/300x200?text=صورة+بعد+العلاج",
+            imageType: "after",
+            uploadDate: "2023-05-20"
+          }
+        ],
+        treatmentPlans: [
+          {
+            id: 1,
+            patientId: 1,
+            description: "تنظيف الأسنان وإزالة الجير",
+            plannedDate: "2023-06-10",
+            isCompleted: true
+          },
+          {
+            id: 2,
+            patientId: 1,
+            description: "حشو تسوس في الضرس العلوي الأيمن",
+            plannedDate: "2023-07-15",
+            isCompleted: false
+          }
+        ],
+        medicalQuestions: [
+          {
+            id: 1,
+            questionText: "هل تعاني من أمراض القلب؟",
+            answer: "no"
+          },
+          {
+            id: 2,
+            questionText: "هل لديك حساسية من أي أدوية؟",
+            answer: "yes"
+          }
+        ],
+        patientTeeth: [
+          { id: 1, toothNumber: 11, status: "healthy" },
+          { id: 2, toothNumber: 12, status: "cavity" },
+          { id: 3, toothNumber: 13, status: "healthy" },
+          { id: 4, toothNumber: 14, status: "treated" },
+          { id: 5, toothNumber: 15, status: "cavity" },
+          { id: 6, toothNumber: 16, status: "healthy" },
+          { id: 7, toothNumber: 17, status: "healthy" },
+          { id: 8, toothNumber: 18, status: "healthy" }
+          // More teeth would be defined here
+        ]
+      },
+      {
+        id: 2,
+        fullName: "فاطمة أحمد حسين",
+        age: 28,
+        gender: "female",
+        phoneNumber: "0567891234",
+        address: "شارع الأمير سلطان، جدة",
+        medicalHistory: {
+          id: 2,
+          description: "لا توجد أمراض مزمنة. تعاني من حساسية الأسنان."
+        },
+        doctorNotes: "المريضة تحتاج إلى تقويم أسنان لتصحيح الأسنان الأمامية.",
+        images: [
+          {
+            id: 3,
+            imageUrl: "https://placehold.co/300x200?text=صورة+أشعة",
+            imageType: "before",
+            uploadDate: "2023-05-05"
+          }
+        ],
+        treatmentPlans: [
+          {
+            id: 3,
+            patientId: 2,
+            description: "تركيب تقويم أسنان",
+            plannedDate: "2023-06-20",
+            isCompleted: false
+          }
+        ],
+        medicalQuestions: [
+          {
+            id: 3,
+            questionText: "هل تعاني من مشاكل في النزيف؟",
+            answer: "no"
+          }
+        ],
+        patientTeeth: []
+      },
+      {
+        id: 3,
+        fullName: "محمد عبدالله العمري",
+        age: 42,
+        gender: "male",
+        phoneNumber: "0512345678",
+        address: "شارع الملك عبدالعزيز، الدمام",
+        medicalHistory: {
+          id: 3,
+          description: "مريض سكري من النوع الثاني. يتناول دواء لضغط الدم المرتفع."
+        },
+        doctorNotes: "يحتاج المريض إلى عناية خاصة باللثة بسبب مرض السكري.",
+        images: [],
+        treatmentPlans: [
+          {
+            id: 4,
+            patientId: 3,
+            description: "علاج التهاب اللثة",
+            plannedDate: "2023-05-30",
+            isCompleted: true
+          },
+          {
+            id: 5,
+            patientId: 3,
+            description: "حشو ضرس خلفي",
+            plannedDate: "2023-06-15",
+            isCompleted: false
+          }
+        ],
+        medicalQuestions: [
+          {
+            id: 4,
+            questionText: "هل تتناول أدوية لضغط الدم؟",
+            answer: "yes"
+          },
+          {
+            id: 5,
+            questionText: "هل أنت مصاب بالسكري؟",
+            answer: "yes"
+          }
+        ],
+        patientTeeth: []
+      },
+      {
+        id: 4,
+        fullName: "نورة سعيد القحطاني",
+        age: 31,
+        gender: "female",
+        phoneNumber: "0523456789",
+        address: "شارع الأمير محمد بن فهد، الرياض",
+        medicalHistory: {
+          id: 4,
+          description: "لا توجد أمراض مزمنة. تعاني من صداع متكرر بسبب إطباق الأسنان."
+        },
+        doctorNotes: "تحتاج إلى واقي ليلي لمنع صرير الأسنان أثناء النوم.",
+        images: [],
+        treatmentPlans: [
+          {
+            id: 6,
+            patientId: 4,
+            description: "تصميم واقي ليلي للأسنان",
+            plannedDate: "2023-06-05",
+            isCompleted: false
+          }
+        ],
+        medicalQuestions: [
+          {
+            id: 6,
+            questionText: "هل تعاني من صداع متكرر؟",
+            answer: "yes"
+          },
+          {
+            id: 7,
+            questionText: "هل تشعر بألم في مفصل الفك؟",
+            answer: "yes"
+          }
+        ],
+        patientTeeth: []
+      },
+      {
+        id: 5,
+        fullName: "خالد سعد الشمري",
+        age: 45,
+        gender: "male",
+        phoneNumber: "0534567890",
+        address: "شارع الملك خالد، الرياض",
+        medicalHistory: {
+          id: 5,
+          description: "يعاني من التهاب المفاصل. لديه حساسية من المضادات الحيوية من فئة السيفالوسبورين."
+        },
+        doctorNotes: "يحتاج إلى استبدال الجسر القديم في الفك العلوي.",
+        images: [
+          {
+            id: 5,
+            imageUrl: "https://placehold.co/300x200?text=صورة+الجسر+القديم",
+            imageType: "before",
+            uploadDate: "2023-05-10"
+          }
+        ],
+        treatmentPlans: [
+          {
+            id: 7,
+            patientId: 5,
+            description: "إزالة الجسر القديم",
+            plannedDate: "2023-06-12",
+            isCompleted: false
+          },
+          {
+            id: 8,
+            patientId: 5,
+            description: "تركيب جسر جديد",
+            plannedDate: "2023-06-26",
+            isCompleted: false
+          }
+        ],
+        medicalQuestions: [
+          {
+            id: 8,
+            questionText: "هل لديك حساسية من أي مضادات حيوية؟",
+            answer: "yes"
+          },
+          {
+            id: 9,
+            questionText: "هل تعاني من التهاب المفاصل؟",
+            answer: "yes"
+          }
+        ],
+        patientTeeth: []
+      }
+    ];
+
+    // DOM Elements
+    const patientSelect = document.getElementById('patient-select');
+    const patientDetails = document.getElementById('patient-details');
+    const patientTabs = document.getElementById('patient-tabs');
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const tabContents = document.querySelectorAll('.tab-content');
+    
+    // Treatment Plans Elements
+    const treatmentPlansList = document.getElementById('treatment-plans-list');
+    const addTreatmentPlanBtn = document.getElementById('add-treatment-plan-btn');
+    const treatmentPlanForm = document.getElementById('treatment-plan-form');
+    const treatmentPlanFormTitle = document.getElementById('treatment-plan-form-title');
+    const treatmentDescription = document.getElementById('treatment-description');
+    const treatmentDate = document.getElementById('treatment-date');
+    const treatmentCompleted = document.getElementById('treatment-completed');
+    const saveTreatmentPlan = document.getElementById('save-treatment-plan');
+    const cancelTreatmentPlan = document.getElementById('cancel-treatment-plan');
+    
+    // Images Elements
+    const imagesGallery = document.getElementById('images-gallery');
+    const addImageBtn = document.getElementById('add-image-btn');
+    const imageForm = document.getElementById('image-form');
+    const imageUrl = document.getElementById('image-url');
+    const imageTypeBefore = document.getElementById('image-type-before');
+    const imageTypeAfter = document.getElementById('image-type-after');
+    const saveImage = document.getElementById('save-image');
+    const cancelImage = document.getElementById('cancel-image');
+    
+    // Medical Questions Elements
+    const questionsList = document.getElementById('questions-list');
+    const addQuestionBtn = document.getElementById('add-question-btn');
+    const questionForm = document.getElementById('question-form');
+    const questionFormTitle = document.getElementById('question-form-title');
+    const questionText = document.getElementById('question-text');
+    const answerYes = document.getElementById('answer-yes');
+    const answerNo = document.getElementById('answer-no');
+    const saveQuestion = document.getElementById('save-question');
+    const cancelQuestion = document.getElementById('cancel-question');
+    
+    // Teeth Elements
+    const toothNumber = document.getElementById('tooth-number');
+    const toothStatus = document.getElementById('tooth-status');
+    const updateToothStatus = document.getElementById('update-tooth-status');
+    
+    // Alert Message
+    const alertMessage = document.getElementById('alert-message');
+    
+    // Current state
+    let currentPatient = null;
+    let editingTreatmentPlanId = null;
+    let editingQuestionId = null;
+    
+    // Initialize the page
+    function init() {
+      // Set up event listeners
+      patientSelect.addEventListener('change', handlePatientSelect);
+      
+      // Tab navigation
+      tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const tabId = button.id.replace('tab-', 'content-');
+          
+          // Update active tab button
+          tabButtons.forEach(btn => {
+            btn.classList.remove('border-blue-500', 'text-blue-600');
+            btn.classList.add('border-transparent', 'text-gray-500');
+          });
+          button.classList.remove('border-transparent', 'text-gray-500');
+          button.classList.add('border-blue-500', 'text-blue-600');
+          
+          // Show selected tab content
+          tabContents.forEach(content => {
+            content.classList.add('hidden');
+          });
+          document.getElementById(tabId).classList.remove('hidden');
+        });
+      });
+      
+      // Treatment Plans
+      addTreatmentPlanBtn.addEventListener('click', showAddTreatmentPlanForm);
+      saveTreatmentPlan.addEventListener('click', handleSaveTreatmentPlan);
+      cancelTreatmentPlan.addEventListener('click', () => {
+        treatmentPlanForm.classList.add('hidden');
+        resetTreatmentPlanForm();
+      });
+      
+      // Images
+      addImageBtn.addEventListener('click', showAddImageForm);
+      saveImage.addEventListener('click', handleSaveImage);
+      cancelImage.addEventListener('click', () => {
+        imageForm.classList.add('hidden');
+        resetImageForm();
+      });
+      
+      // Medical Questions
+      addQuestionBtn.addEventListener('click', showAddQuestionForm);
+      saveQuestion.addEventListener('click', handleSaveQuestion);
+      cancelQuestion.addEventListener('click', () => {
+        questionForm.classList.add('hidden');
+        resetQuestionForm();
+      });
+      
+      // Teeth
+      updateToothStatus.addEventListener('click', handleUpdateToothStatus);
+      
+      // Navigation links
+      document.getElementById('register-link').addEventListener('click', function(e) {
+        e.preventDefault();
+        // This would navigate to the registration page in a real app
+        alert('سيتم الانتقال إلى صفحة تسجيل المريض');
+      });
+      
+      document.getElementById('case-management-link').addEventListener('click', function(e) {
+        e.preventDefault();
+        // Already on this page
+      });
+    }
+    
+    // Handle patient selection
+    function handlePatientSelect(e) {
+      const patientId = parseInt(e.target.value);
+      
+      if (patientId) {
+        currentPatient = mockPatients.find(p => p.id === patientId);
+        displayPatientDetails();
+        patientDetails.classList.remove('hidden');
+        patientTabs.classList.remove('hidden');
+        
+        // Reset to first tab
+        tabButtons[0].click();
+      } else {
+        currentPatient = null;
+        patientDetails.classList.add('hidden');
+        patientTabs.classList.add('hidden');
+      }
+    }
+    
+    // Display patient details
+    function displayPatientDetails() {
+      if (!currentPatient) return;
+      
+      document.getElementById('patient-name').textContent = currentPatient.fullName;
+      document.getElementById('patient-age').textContent = currentPatient.age;
+      document.getElementById('patient-gender').textContent = currentPatient.gender === 'male' ? 'ذكر' : 'أنثى';
+      document.getElementById('patient-phone').textContent = currentPatient.phoneNumber;
+      document.getElementById('patient-address').textContent = currentPatient.address;
+      document.getElementById('patient-medical-history').textContent = currentPatient.medicalHistory.description;
+      document.getElementById('patient-doctor-notes').textContent = currentPatient.doctorNotes;
+      
+      // Load treatment plans
+      loadTreatmentPlans();
+      
+      // Load images
+      loadImages();
+      
+      // Load medical questions
+      loadMedicalQuestions();
+      
+      // Load teeth status
+      loadTeethStatus();
+    }
+    
+    // Treatment Plans Functions
+    function loadTreatmentPlans() {
+      treatmentPlansList.innerHTML = '';
+      
+      if (currentPatient.treatmentPlans.length === 0) {
+        treatmentPlansList.innerHTML = '<p class="text-gray-500 text-center py-4">لا توجد خطط علاج مسجلة</p>';
+        return;
+      }
+      
+      currentPatient.treatmentPlans.forEach(plan => {
+        const planElement = document.createElement('div');
+        planElement.className = 'bg-gray-50 p-4 rounded-md';
+        planElement.innerHTML = `
+          <div class="flex justify-between items-start">
+            <div>
+              <h4 class="font-medium">${plan.description}</h4>
+              <p class="text-sm text-gray-500">التاريخ: ${formatDate(plan.plannedDate)}</p>
+              <p class="text-sm ${plan.isCompleted ? 'text-green-600' : 'text-yellow-600'}">
+                ${plan.isCompleted ? 'مكتملة' : 'غير مكتملة'}
+              </p>
+            </div>
+            <div class="flex space-x-2 space-x-reverse">
+              <button class="edit-plan text-blue-600 hover:text-blue-800" data-id="${plan.id}">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z" />
+                </svg>
+              </button>
+              <button class="delete-plan text-red-600 hover:text-red-800" data-id="${plan.id}">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        `;
+        
+        treatmentPlansList.appendChild(planElement);
+        
+        // Add event listeners for edit and delete buttons
+        planElement.querySelector('.edit-plan').addEventListener('click', () => {
+          editTreatmentPlan(plan.id);
+        });
+        
+        planElement.querySelector('.delete-plan').addEventListener('click', () => {
+          deleteTreatmentPlan(plan.id);
+        });
+      });
+    }
+    
+    function showAddTreatmentPlanForm() {
+      treatmentPlanFormTitle.textContent = 'إضافة خطة علاج جديدة';
+      editingTreatmentPlanId = null;
+      resetTreatmentPlanForm();
+      treatmentPlanForm.classList.remove('hidden');
+    }
+    
+    function editTreatmentPlan(planId) {
+      const plan = currentPatient.treatmentPlans.find(p => p.id === planId);
+      if (!plan) return;
+      
+      treatmentPlanFormTitle.textContent = 'تعديل خطة العلاج';
+      treatmentDescription.value = plan.description;
+      treatmentDate.value = plan.plannedDate;
+      treatmentCompleted.checked = plan.isCompleted;
+      
+      editingTreatmentPlanId = planId;
+      treatmentPlanForm.classList.remove('hidden');
+    }
+    
+    function handleSaveTreatmentPlan() {
+      if (!treatmentDescription.value || !treatmentDate.value) {
+        showAlert('يرجى ملء جميع الحقول المطلوبة', 'error');
+        return;
+      }
+      
+      if (editingTreatmentPlanId) {
+        // Update existing plan
+        const planIndex = currentPatient.treatmentPlans.findIndex(p => p.id === editingTreatmentPlanId);
+        if (planIndex !== -1) {
+          currentPatient.treatmentPlans[planIndex] = {
+            ...currentPatient.treatmentPlans[planIndex],
+            description: treatmentDescription.value,
+            plannedDate: treatmentDate.value,
+            isCompleted: treatmentCompleted.checked
+          };
+        }
+      } else {
+        // Add new plan
+        const newPlan = {
+          id: Date.now(), // Generate a unique ID
+          patientId: currentPatient.id,
+          description: treatmentDescription.value,
+          plannedDate: treatmentDate.value,
+          isCompleted: treatmentCompleted.checked
+        };
+        
+        currentPatient.treatmentPlans.push(newPlan);
+      }
+      
+      // Reload treatment plans and hide form
+      loadTreatmentPlans();
+      treatmentPlanForm.classList.add('hidden');
+      resetTreatmentPlanForm();
+      
+      showAlert('تم حفظ خطة العلاج بنجاح');
+    }
+    
+    function deleteTreatmentPlan(planId) {
+      if (confirm('هل أنت متأكد من حذف خطة العلاج هذه؟')) {
+        currentPatient.treatmentPlans = currentPatient.treatmentPlans.filter(p => p.id !== planId);
+        loadTreatmentPlans();
+        showAlert('تم حذف خطة العلاج بنجاح');
+      }
+    }
+    
+    function resetTreatmentPlanForm() {
+      treatmentDescription.value = '';
+      treatmentDate.value = '';
+      treatmentCompleted.checked = false;
+      editingTreatmentPlanId = null;
+    }
+    
+    // Images Functions
+    function loadImages() {
+      imagesGallery.innerHTML = '';
+      
+      if (currentPatient.images.length === 0) {
+        imagesGallery.innerHTML = '<p class="text-gray-500 text-center py-4 col-span-3">لا توجد صور مسجلة</p>';
+        return;
+      }
+      
+      currentPatient.images.forEach(image => {
+        const imageElement = document.createElement('div');
+        imageElement.className = 'bg-white border rounded-md overflow-hidden';
+        imageElement.innerHTML = `
+          <img src="${image.imageUrl}" alt="صورة المريض" class="w-full h-40 object-cover">
+          <div class="p-3">
+            <div class="flex justify-between items-center">
+              <span class="text-sm font-medium ${image.imageType === 'before' ? 'text-blue-600' : 'text-green-600'}">
+                ${image.imageType === 'before' ? 'قبل العلاج' : 'بعد العلاج'}
+              </span>
+              <span class="text-xs text-gray-500">${formatDate(image.uploadDate)}</span>
+            </div>
+            <button class="delete-image mt-2 text-red-600 hover:text-red-800 text-sm" data-id="${image.id}">
+              حذف الصورة
+            </button>
+          </div>
+        `;
+        
+        imagesGallery.appendChild(imageElement);
+        
+        // Add event listener for delete button
+        imageElement.querySelector('.delete-image').addEventListener('click', () => {
+          deleteImage(image.id);
+        });
+      });
+    }
+    
+    function showAddImageForm() {
+      imageForm.classList.remove('hidden');
+    }
+    
+    function handleSaveImage() {
+      if (!imageUrl.value) {
+        showAlert('يرجى إدخال رابط الصورة', 'error');
+        return;
+      }
+      
+      const newImage = {
+        id: Date.now(), // Generate a unique ID
+        imageUrl: imageUrl.value,
+        imageType: imageTypeBefore.checked ? 'before' : 'after',
+        uploadDate: new Date().toISOString().split('T')[0]
+      };
+      
+      currentPatient.images.push(newImage);
+      
+      // Reload images and hide form
+      loadImages();
+      imageForm.classList.add('hidden');
+      resetImageForm();
+      
+      showAlert('تمت إضافة الصورة بنجاح');
+    }
+    
+    function deleteImage(imageId) {
+      if (confirm('هل أنت متأكد من حذف هذه الصورة؟')) {
+        currentPatient.images = currentPatient.images.filter(img => img.id !== imageId);
+        loadImages();
+        showAlert('تم حذف الصورة بنجاح');
+      }
+    }
+    
+    function resetImageForm() {
+      imageUrl.value = '';
+      imageTypeBefore.checked = true;
+    }
+    
+    // Medical Questions Functions
+    function loadMedicalQuestions() {
+      questionsList.innerHTML = '';
+      
+      if (currentPatient.medicalQuestions.length === 0) {
+        questionsList.innerHTML = '<p class="text-gray-500 text-center py-4">لا توجد أسئلة طبية مسجلة</p>';
+        return;
+      }
+      
+      currentPatient.medicalQuestions.forEach(question => {
+        const questionElement = document.createElement('div');
+        questionElement.className = 'bg-gray-50 p-4 rounded-md';
+        questionElement.innerHTML = `
+          <div class="flex justify-between items-start">
+            <div>
+              <h4 class="font-medium">${question.questionText}</h4>
+              <p class="text-sm ${question.answer === 'yes' ? 'text-red-600' : 'text-green-600'}">
+                الإجابة: ${question.answer === 'yes' ? 'نعم' : 'لا'}
+              </p>
+            </div>
+            <div class="flex space-x-2 space-x-reverse">
+              <button class="edit-question text-blue-600 hover:text-blue-800" data-id="${question.id}">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z" />
+                </svg>
+              </button>
+              <button class="delete-question text-red-600 hover:text-red-800" data-id="${question.id}">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        `;
+        
+        questionsList.appendChild(questionElement);
+        
+        // Add event listeners for edit and delete buttons
+        questionElement.querySelector('.edit-question').addEventListener('click', () => {
+          editQuestion(question.id);
+        });
+        
+        questionElement.querySelector('.delete-question').addEventListener('click', () => {
+          deleteQuestion(question.id);
+        });
+      });
+    }
+    
+    function showAddQuestionForm() {
+      questionFormTitle.textContent = 'إضافة سؤال طبي جديد';
+      editingQuestionId = null;
+      resetQuestionForm();
+      questionForm.classList.remove('hidden');
+    }
+    
+    function editQuestion(questionId) {
+      const question = currentPatient.medicalQuestions.find(q => q.id === questionId);
+      if (!question) return;
+      
+      questionFormTitle.textContent = 'تعديل السؤال الطبي';
+      questionText.value = question.questionText;
+      
+      if (question.answer === 'yes') {
+        answerYes.checked = true;
+      } else {
+        answerNo.checked = true;
+      }
+      
+      editingQuestionId = questionId;
+      questionForm.classList.remove('hidden');
+    }
+    
+    function handleSaveQuestion() {
+      if (!questionText.value) {
+        showAlert('يرجى إدخال نص السؤال', 'error');
+        return;
+      }
+      
+      if (editingQuestionId) {
+        // Update existing question
+        const questionIndex = currentPatient.medicalQuestions.findIndex(q => q.id === editingQuestionId);
+        if (questionIndex !== -1) {
+          currentPatient.medicalQuestions[questionIndex] = {
+            ...currentPatient.medicalQuestions[questionIndex],
+            questionText: questionText.value,
+            answer: answerYes.checked ? 'yes' : 'no'
+          };
+        }
+      } else {
+        // Add new question
+        const newQuestion = {
+          id: Date.now(), // Generate a unique ID
+          questionText: questionText.value,
+          answer: answerYes.checked ? 'yes' : 'no'
+        };
+        
+        currentPatient.medicalQuestions.push(newQuestion);
+      }
+      
+      // Reload questions and hide form
+      loadMedicalQuestions();
+      questionForm.classList.add('hidden');
+      resetQuestionForm();
+      
+      showAlert('تم حفظ السؤال الطبي بنجاح');
+    }
+    
+    function deleteQuestion(questionId) {
+      if (confirm('هل أنت متأكد من حذف هذا السؤال؟')) {
+        currentPatient.medicalQuestions = currentPatient.medicalQuestions.filter(q => q.id !== questionId);
+        loadMedicalQuestions();
+        showAlert('تم حذف السؤال الطبي بنجاح');
+      }
+    }
+    
+    function resetQuestionForm() {
+      questionText.value = '';
+      answerNo.checked = true;
+      editingQuestionId = null;
+    }
+    
+    // Teeth Functions
+    function loadTeethStatus() {
+      // This would update the visual representation of teeth based on patient data
+      // For simplicity, we're using the static HTML representation
+      
+      // Populate tooth number dropdown
+      toothNumber.innerHTML = '<option value="">اختر رقم السن</option>';
+      
+      for (let i = 11; i <= 48; i++) {
+        // Skip teeth numbers that don't exist in dental notation
+        if ((i > 18 && i < 21) || (i > 28 && i < 31) || (i > 38 && i < 41)) continue;
+        
+        const option = document.createElement('option');
+        option.value = i;
+        option.textContent = i;
+        toothNumber.appendChild(option);
+      }
+    }
+    
+    function handleUpdateToothStatus() {
+      const selectedToothNumber = toothNumber.value;
+      const selectedStatus = toothStatus.value;
+      
+      if (!selectedToothNumber) {
+        showAlert('يرجى اختيار رقم السن', 'error');
+        return;
+      }
+      
+      // Update tooth element in the UI
+      const toothElement = document.getElementById(`tooth-${selectedToothNumber}`);
+      if (toothElement) {
+        // Remove all status classes
+        toothElement.classList.remove('healthy', 'cavity', 'treated', 'missing');
+        // Add the selected status class
+        toothElement.classList.add(selectedStatus);
+        
+        // Update in patient data (in a real app)
+        // For this demo, we're just updating the UI
+        
+        showAlert('تم تحديث حالة السن بنجاح');
+      }
+    }
+    
+    // Utility Functions
+    function formatDate(dateString) {
+      const options = { year: 'numeric', month: 'numeric', day: 'numeric' };
+      return new Date(dateString).toLocaleDateString('ar-SA', options);
+    }
+    
+    function showAlert(message, type = 'success') {
+      alertMessage.textContent = message;
+      alertMessage.classList.remove('hidden', 'bg-green-100', 'text-green-800', 'bg-red-100', 'text-red-800');
+      
+      if (type === 'success') {
+        alertMessage.classList.add('bg-green-100', 'text-green-800');
+      } else {
+        alertMessage.classList.add('bg-red-100', 'text-red-800');
+      }
+      
+      alertMessage.classList.remove('hidden');
+      
+      // Hide after 3 seconds
+      setTimeout(() => {
+        alertMessage.classList.add('hidden');
+      }, 3000);
+    }
+    
+    // Initialize the page
+    init();
+  </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'95e17adae32211b4',t:'MTc1MjMzMzE1Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;" src="./نظام إدارة طب الأسنان_files/saved_resource.html"></iframe>
+
+</body></html>
